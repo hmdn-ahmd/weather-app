@@ -23,6 +23,10 @@ app.get('/weather', (req,res) => {
     })
 })
 
+app.get("*",(req,res) => {
+    res.send("This route doesn't exist")
+})
+
 app.listen(port, ()=> {
     console.log('Server port: '+ port)
 })
