@@ -1,3 +1,2 @@
-﻿# projects-weather app
-- API Call-
-
+﻿# project-weather app
+- API Call - https://openweathermap.org/
